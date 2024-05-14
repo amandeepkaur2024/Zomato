@@ -50,6 +50,6 @@ This dataset is valuable for exploring and analyzing global dining trends, inclu
 - Top Cuisines: North Indian, Chinese, Fast Food, Bakery, Cafe
 - Most restaurants have ratings centered around 2.5-3.0, indicating a moderate satisfaction level among customers.
 - The average cost for dining out varies significantly across different cities, with some cities being more expensive than others.
-- Variation of Price Range Across Different Localities: There is notable variability in restaurant price ranges across different localities or cities, highlighting diverse affordability levels for dining out experiences.
+- There is notable variability in restaurant price ranges across different localities or cities, highlighting diverse affordability levels for dining out experiences.
 - Restaurants offering online delivery and table booking trend to have higher ratings compared to those that do not. 
 
