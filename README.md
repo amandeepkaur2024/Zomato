@@ -4,49 +4,52 @@ Analyzing Global Dining Trends with Zomato Data involves examining restaurant da
 ![](https://i0.wp.com/analyticsindiamag.com/wp-content/uploads/2021/08/Zomato-Machine-Learning-1.jpg?fit=2240%2C1260&ssl=1)
 
 **Objective:**<br>
-New York Airbnb listings analysis involves monitoring and analyzing data related to short-term rental properties in New York City. This includes evaluating property details (such as name, host information, location), pricing trends, occupancy rates, and guest feedback. By analyzing these factors, we aim to uncover insights into market dynamics, identify key factors influencing rental performance, and understand guest preferences and behaviors.
+Analyzing Global Dining Trends with Zomato Data involves monitoring and analyzing data related to restaurants worldwide. This includes evaluating restaurant details (such as name, location, and cuisine), pricing trends, customer ratings, and delivery options. By analyzing these factors, we aim to uncover insights into global dining preferences, identify key factors influencing restaurant performance, and understand consumer behaviors and market dynamics in the culinary industry.
 
 **Description of Dataset**<br>
-This dataset comprises a comprehensive list of New York City Airbnb listings, sourced from Airbnb's website. The dataset includes various fields providing detailed information about each listing:
+This dataset comprises a comprehensive collection of restaurant listings from Zomato's global database. The dataset includes various fields providing detailed information about each restaurant:
 
-id: Unique identifier for each Airbnb listing.<br>
-name: Title or name of the listing.<br>
-host_id: Unique identifier for the host of the listing.<br>
-host_name: Name of the host associated with the listing.<br>
-neighbourhood_group: Borough or area within New York City where the listing is located.<br>
-neighbourhood: Specific neighborhood where the listing is situated.<br>
-latitude: Latitude coordinate of the listing's location.<br>
-longitude: Longitude coordinate of the listing's location.<br>
-room_type: Type of accommodation offered (e.g., entire home/apartment, private room, shared room).<br>
-price: Nightly price for renting the listing.<br>
-minimum_nights: Minimum number of nights required for booking.<br>
-number_of_reviews: Total number of reviews received for the listing.<br>
-last_review: Date of the most recent review for the listing.<br>
-reviews_per_month: Average number of reviews per month.<br>
-calculated_host_listings_count: Number of listings managed by the host.<br>
-availability_365: Number of days the listing is available for booking within a year.<br>
+Restaurant ID: Unique identifier for each restaurant.<br>
+Restaurant Name: The name of the restaurant.<br>
+Country Code: Numerical code representing the country where the restaurant is located.<br>
+City: The city where the restaurant is situated.<br>
+Address: Full address of the restaurant.<br>
+Locality: The locality of the restaurant within the city.<br>
+Locality Verbose: Detailed locality information, combining locality and city.<br>
+Longitude: Geographic longitude of the restaurant.<br>
+Latitude: Geographic latitude of the restaurant.<br>
+Cuisines: Types of cuisines offered by the restaurant, separated by commas.<br>
+Average Cost for two: The average cost for a meal for two people (in the restaurant's local currency).<br>
+Currency: The type of currency in which the average cost is represented.<br>
+Has Table booking: Indicates whether the restaurant allows table bookings ('Yes' or 'No').<br>
+Has Online delivery: Indicates whether the restaurant offers online delivery ('Yes' or 'No').<br>
+Is delivering now: Indicates if the restaurant is currently offering delivery services ('Yes' or 'No').<br>
+Switch to order menu: Indicates if the restaurant has switched to an order menu available online ('Yes' or 'No').<br>
+Price range: Numeric representation of the restaurant's price range (1-4).<br>
+Aggregate rating: The overall rating of the restaurant, based on user reviews.<br>
+Rating color: A color associated with the aggregate rating, for visual representation.<br>
+Rating text: Textual representation of the rating (e.g., Excellent, Very Good, Good, Average, Poor).<br>
+Votes: The number of votes the restaurant has received.<br>
 
-This dataset is valuable for exploring and analyzing trends in the New York City Airbnb market, including pricing patterns, host behaviors, popularity of different neighborhoods, and availability dynamics. Researchers, analysts, and stakeholders can leverage this dataset to gain insights into the short-term rental landscape and inform strategic decisions related to property management, guest experiences, and market competitiveness.
+This dataset is valuable for exploring and analyzing global dining trends, including culinary preferences, pricing patterns, restaurant popularity, and service availability. Researchers, analysts, and stakeholders can leverage this dataset to gain insights into the culinary landscape and inform strategic decisions related to restaurant management, customer experiences, and market competitiveness.
 
-[Dataset](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
+[Dataset](https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data)
 
-**Methodology**
-- Data Importing and Understanding
-- Data preparation and cleaning
-- Exploratory analysis and visualization
-- Asking and answering interesting questions
-- Summarizing inferences and drawing conclusions
+**Here, are the operations that I performed to develop this Dashboard**
+- Data Gathering
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Data Visualization
+- Sharing Insights
 
-[Notebook](https://github.com/amandeepkaur2024/New-York-Airbnb-listings)
+[Notebook](https://github.com/amandeepkaur2024/Zomato)
 
-**Conclusion**<br>
-The analysis yields several noteworthy findings regarding accommodations in New York City:
-
-- Manhattan emerges as the most expensive neighborhood, with the highest average price among the observed locations, indicating it is the costliest area for accommodations.
-- Private rooms stand out as the most reviewed room type, suggesting they are preferred by guests compared to other room types.
-- Among the top 10 areas, Midtown demonstrates the highest average price for accommodations, highlighting its premium status among the analyzed neighborhoods.
-- Conversely, New Drop emerges as the most affordable option, offering budget-friendly accommodation choices within the dataset.
-- "Entire home/apt" listings exhibit the highest average minimum nights requirement, indicating a preference for longer stays or rental durations in these types of accommodations.
-
-These insights provide valuable information for travelers and stakeholders in the hospitality industry, informing decisions related to location selection, room type preferences, and pricing strategies
+**Here, Some key insights derived from the analysis of the Analyzing Global Dining Trends with Zomato Data **<br>
+- Total Restaurants - 9551, Total Cities - 141, Total Countries - 15, Total Cuisines - 1825, Average Rating - 2.67, Average Cost - 1201
+- Top Cuisines: North Indian, Chinese, Fast Food, Bakery, Cafe
+- Most restaurants have ratings centered around 2.5-3.0, indicating a moderate satisfaction level among customers.
+- The average cost for dining out varies significantly across different cities, with some cities being more expensive than others.
+- Variation of Price Range Across Different Localities: There is notable variability in restaurant price ranges across different localities or cities, highlighting diverse affordability levels for dining out experiences.
+- Restaurants offering online delivery and table booking trend to have higher ratings compared to those that do not. 
 
