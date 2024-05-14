@@ -45,7 +45,7 @@ This dataset is valuable for exploring and analyzing global dining trends, inclu
 
 [Notebook](https://github.com/amandeepkaur2024/Zomato)
 
-**Here, Some key insights derived from the analysis of the Analyzing Global Dining Trends with Zomato Data **<br>
+**Here, some key insights derived from the analysis of the Analyzing Global Dining Trends with Zomato Data**<br>
 - Total Restaurants - 9551, Total Cities - 141, Total Countries - 15, Total Cuisines - 1825, Average Rating - 2.67, Average Cost - 1201
 - Top Cuisines: North Indian, Chinese, Fast Food, Bakery, Cafe
 - Most restaurants have ratings centered around 2.5-3.0, indicating a moderate satisfaction level among customers.
