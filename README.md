@@ -43,13 +43,20 @@ This dataset is valuable for exploring and analyzing global dining trends, inclu
 - Data Visualization
 - Sharing Insights
 
-[Notebook](https://github.com/amandeepkaur2024/Zomato)
+**Key Performance Indicators for Zomato Tableau Dashboard**
+- Total Restaurants: The aggregated count of restaurants listed on Zomato's platform.
+- Total Countries: The number of countries where Zomato operates and provides restaurant listings.
+- Total Cities: The sum of cities covered by Zomato's service, encompassing its restaurant listings.
+- Total Cuisines: The overall count of culinary categories represented among restaurants listed on Zomato.
+- Average Rating: The mean rating score assigned to restaurants listed on Zomato.
+- Average Cost: The typical expense associated with dining at restaurants listed on Zomato, averaged across different establishments.
+- Filters: Interactive options enabling users to refine data analysis by criteria such as cuisine type, city, and locality.
 
-**Here, some key insights derived from the analysis of the Analyzing Global Dining Trends with Zomato Data**<br>
-- Total Restaurants - 9551, Total Cities - 141, Total Countries - 15, Total Cuisines - 1825, Average Rating - 2.67, Average Cost - 1201
-- Top Cuisines: North Indian, Chinese, Fast Food, Bakery, Cafe
-- Most restaurants have ratings centered around 2.5-3.0, indicating a moderate satisfaction level among customers.
-- The average cost for dining out varies significantly across different cities, with some cities being more expensive than others.
-- There is notable variability in restaurant price ranges across different localities or cities, highlighting diverse affordability levels for dining out experiences.
-- Restaurants offering online delivery and table booking trend to have higher ratings compared to those that do not. 
-
+**Key Insights for Zomato Tableau Dashboard**
+- Restaurants Offering Online Delivery: Identification of restaurants providing delivery services through Zomato's platform.
+- Mapping the Global Average Dining Expenses for Two Guests: Visualization showcasing the average cost for dining at restaurants for two people across different geographical regions.
+- Distribution of Restaurants Ratings: Graphical representation illustrating the spread of rating scores among restaurants listed on Zomato.
+- Restaurants Offering Table Booking: Recognition of restaurants offering table reservation services through Zomato.
+- Price Range Across Localities: Analysis displaying the variation in dining costs across different neighborhoods or areas.
+- Price Percentage by Rating: Breakdown indicating the distribution of restaurants' pricing relative to their rating scores.
+- Top 5 Cuisines: Highlighting the most popular culinary categories among restaurants listed on Zomato.
